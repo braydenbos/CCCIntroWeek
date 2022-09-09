@@ -2944,21 +2944,21 @@ MonoBehaviour:
       Add: 0
       Mult: 1.2
       Cost: 50
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 77afa300334604e4cb4c734d00d47644, type: 3}
       Stars: 2
     - Face: {fileID: 21300000, guid: c7926a63bf5acf84cb6f789b0e269e65, type: 3}
       Name: Sean Bean
       Add: 3
       Mult: 1
       Cost: 50
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 72a0714ae5113e84b832f5e5adaa6bbc, type: 3}
       Stars: 2
     - Face: {fileID: 21300000, guid: 989812058f4653a448f63b1a16a8eca0, type: 3}
       Name: Brian Cranston
       Add: 3
       Mult: 1.1
       Cost: 50
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 8932be8ee9fae2e468461f062001f78c, type: 3}
       Stars: 2
   - Stars:
     - Face: {fileID: 21300000, guid: 163f782b29a5c4e4284288b9d11dc03d, type: 3}
@@ -2966,28 +2966,28 @@ MonoBehaviour:
       Add: 5
       Mult: 1.5
       Cost: 150
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 3e7a9b2f5b1de444e84de152c1a057f8, type: 3}
       Stars: 3
     - Face: {fileID: 21300000, guid: cb67e9abb2abd7f4480fdc8439cf2d1d, type: 3}
       Name: Harrison Ford
       Add: 1
       Mult: 1.9
       Cost: 250
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: b32a4428b3510e74085ce77b3a05abfd, type: 3}
       Stars: 3
     - Face: {fileID: 21300000, guid: bea1b26ab85e77a4f912da5e8cb350e2, type: 3}
       Name: Robert Sheehan
       Add: 0
       Mult: 2.3
       Cost: 150
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 986b860f2050879478489c90f8793bc1, type: 3}
       Stars: 3
     - Face: {fileID: 21300000, guid: 06026a235bbd9a845bd76aca177fa4a1, type: 3}
       Name: Antony Star
       Add: 9
       Mult: 1
       Cost: 250
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 93dfaae7545cb5c4f9ffdadbd5fd7ef9, type: 3}
       Stars: 3
   - Stars:
     - Face: {fileID: 21300000, guid: 2be7280bed165a847a750eb4f9fa8f87, type: 3}
@@ -2995,42 +2995,42 @@ MonoBehaviour:
       Add: 8
       Mult: 1.6
       Cost: 350
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: f2091bae14575bf42bfd6413b6db3c80, type: 3}
       Stars: 4
     - Face: {fileID: 21300000, guid: b4077ae20e7147c4f8d956458fa28282, type: 3}
       Name: Ryan Gosling
       Add: 17
       Mult: 1.3
       Cost: 500
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 05f9474a20437b14bb78d82f82df4e5c, type: 3}
       Stars: 4
     - Face: {fileID: 21300000, guid: 6dd9a33af9adae746b644080bace52cb, type: 3}
       Name: Samuel L Jackson
       Add: 10
       Mult: 2
       Cost: 500
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 01fecf4c57311aa49af11f83f16de57c, type: 3}
       Stars: 4
     - Face: {fileID: 21300000, guid: d0762addb486f4347aeef02114a99555, type: 3}
       Name: Kit Harington
       Add: 15
       Mult: 1.5
       Cost: 500
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: b896761863acdfb43bce7e9f2c59fa4d, type: 3}
       Stars: 4
     - Face: {fileID: 21300000, guid: 9d38525e36a99e44787a7ce25c1f7f9e, type: 3}
       Name: Pedro Pascal
       Add: 0
       Mult: 5
       Cost: 350
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: d1471ad2d01368947afd0322b6e60450, type: 3}
       Stars: 4
     - Face: {fileID: 21300000, guid: c53d1ad6445e84a46a9993594ad371e9, type: 3}
       Name: Jessie T Usher
       Add: 20
       Mult: 1
       Cost: 500
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: b5212768e481cdf4db001691f4b7ea4c, type: 3}
       Stars: 4
   - Stars:
     - Face: {fileID: 21300000, guid: cfa7c2f5383165b4b9c519c8140f2787, type: 3}
@@ -3038,35 +3038,35 @@ MonoBehaviour:
       Add: 20
       Mult: 2
       Cost: 1000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 2c9cf2cd140e6e3429bbd0fbae5b56cb, type: 3}
       Stars: 5
     - Face: {fileID: 21300000, guid: 2dded621d64fa384c924ab33c398a5a6, type: 3}
       Name: Tom Cruise
       Add: 10
       Mult: 5
       Cost: 1000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 59cfa4b8f65f7a04bb323611948db218, type: 3}
       Stars: 5
     - Face: {fileID: 21300000, guid: b771d2eb6a3cb0942990bbf7d6015829, type: 3}
       Name: Richard Madden
       Add: 17
       Mult: 3
       Cost: 1000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 37332e4f69a52e048a2de7d7d046b7bc, type: 3}
       Stars: 5
     - Face: {fileID: 21300000, guid: 355445da031fa3c45b65f7cdb862338c, type: 3}
       Name: ' Tom Hopper'
       Add: 50
       Mult: 0
       Cost: 1000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 1c5bb536bb437b4419d5f25709dedde7, type: 3}
       Stars: 5
     - Face: {fileID: 21300000, guid: d6f3ec68178af8b47b77643e296293bc, type: 3}
       Name: Chris Pratt
       Add: 0
       Mult: 10
       Cost: 1000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 59f854d0d1cf42441ab8264fe841c986, type: 3}
       Stars: 5
   - Stars:
     - Face: {fileID: 21300000, guid: f93df189de656094d95ccea88760655b, type: 3}
@@ -3074,14 +3074,14 @@ MonoBehaviour:
       Add: 0
       Mult: 25
       Cost: 2000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 27c37152b25fc9447b6613cbf42282ea, type: 3}
       Stars: 6
     - Face: {fileID: 21300000, guid: 63849ff7d941b8e42987e9a1e268b76a, type: 3}
       Name: Peter Dinklage
       Add: 100
       Mult: 0
       Cost: 2000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: d48dfc1ac285837468e9190012320c38, type: 3}
       Stars: 6
   - Stars:
     - Face: {fileID: 21300000, guid: 741f915ad127dc540b32759ed54676ad, type: 3}
@@ -3089,7 +3089,7 @@ MonoBehaviour:
       Add: 100
       Mult: 25
       Cost: 4000
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 415cf51229aecf245b3308968ab97190, type: 3}
       Stars: 7
   invent: []
   net: {fileID: 1008948811}
@@ -3110,6 +3110,136 @@ MonoBehaviour:
   sell3: {fileID: 1342458627}
   sell4: {fileID: 743682509}
   clicker: {fileID: 1008948811}
+  face: {fileID: 1530983043}
+  audio: {fileID: 1255935235}
+--- !u!1 &1255935234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1255935236}
+  - component: {fileID: 1255935235}
+  m_Layer: 0
+  m_Name: audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1255935235
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255935234}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1255935236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255935234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 381.35416, y: 1255.1168, z: 26.822739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1273895031
 GameObject:
   m_ObjectHideFlags: 0

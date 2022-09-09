@@ -38,6 +38,7 @@ public class Celebs : MonoBehaviour
         private int tier;
         private int rand2;
         private bool box;
+        public AudioSource audio;
 
 
 
@@ -202,6 +203,8 @@ public class Celebs : MonoBehaviour
             invent.Add(starTiers[tier].Stars[rand2]);
             places[invent.Count - 1].GetComponent<Image>().color = Color.white;
             mess.text = "You got " + invent[invent.Count - 1].Name;
+            audio.clip = invent[invent.Count - 1].clip;
+            audio.Play();
             face.GetComponent<Image>().sprite = invent[invent.Count - 1].Face;
             mes.SetActive(true);
             face.SetActive(true);
