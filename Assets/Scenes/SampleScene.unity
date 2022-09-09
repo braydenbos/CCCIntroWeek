@@ -2923,14 +2923,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starTiers:
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 69d43ced7674d244eb39650b2f9e2538, type: 3}
       Name: Amy Schumer
       Add: 0
       Mult: 0.5
       Cost: -10
       clip: {fileID: 0}
       Stars: 1
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 6edf21cbb468dd94cb07e3f0b8ef0ef4, type: 3}
       Name: James Corden
       Add: 0
       Mult: 0.5
@@ -2938,21 +2938,21 @@ MonoBehaviour:
       clip: {fileID: 0}
       Stars: 1
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: eadac9cd722c75a47bab35f8cb7f6b54, type: 3}
       Name: Mark Hamil
       Add: 0
       Mult: 1.2
       Cost: 50
       clip: {fileID: 0}
       Stars: 2
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: c7926a63bf5acf84cb6f789b0e269e65, type: 3}
       Name: Sean Bean
       Add: 3
       Mult: 1
       Cost: 50
       clip: {fileID: 0}
       Stars: 2
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 989812058f4653a448f63b1a16a8eca0, type: 3}
       Name: Brian Cranston
       Add: 3
       Mult: 1.1
@@ -2960,28 +2960,28 @@ MonoBehaviour:
       clip: {fileID: 0}
       Stars: 2
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 163f782b29a5c4e4284288b9d11dc03d, type: 3}
       Name: Matt Smith
       Add: 5
       Mult: 1.5
       Cost: 150
       clip: {fileID: 0}
       Stars: 3
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: cb67e9abb2abd7f4480fdc8439cf2d1d, type: 3}
       Name: Harrison Ford
       Add: 1
       Mult: 1.9
       Cost: 250
       clip: {fileID: 0}
       Stars: 3
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: bea1b26ab85e77a4f912da5e8cb350e2, type: 3}
       Name: Robert Sheehan
       Add: 0
       Mult: 2.3
       Cost: 150
       clip: {fileID: 0}
       Stars: 3
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 06026a235bbd9a845bd76aca177fa4a1, type: 3}
       Name: Antony Star
       Add: 9
       Mult: 1
@@ -2989,42 +2989,42 @@ MonoBehaviour:
       clip: {fileID: 0}
       Stars: 3
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 2be7280bed165a847a750eb4f9fa8f87, type: 3}
       Name: Ewan Mcgregor
       Add: 8
       Mult: 1.6
       Cost: 350
       clip: {fileID: 0}
       Stars: 4
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: b4077ae20e7147c4f8d956458fa28282, type: 3}
       Name: Ryan Gosling
       Add: 17
       Mult: 1.3
       Cost: 500
       clip: {fileID: 0}
       Stars: 4
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 6dd9a33af9adae746b644080bace52cb, type: 3}
       Name: Samuel L Jackson
       Add: 10
       Mult: 2
       Cost: 500
       clip: {fileID: 0}
       Stars: 4
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: d0762addb486f4347aeef02114a99555, type: 3}
       Name: Kit Harington
       Add: 15
       Mult: 1.5
       Cost: 500
       clip: {fileID: 0}
       Stars: 4
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 9d38525e36a99e44787a7ce25c1f7f9e, type: 3}
       Name: Pedro Pascal
       Add: 0
       Mult: 5
       Cost: 350
       clip: {fileID: 0}
       Stars: 4
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: c53d1ad6445e84a46a9993594ad371e9, type: 3}
       Name: Jessie T Usher
       Add: 20
       Mult: 1
@@ -3032,35 +3032,35 @@ MonoBehaviour:
       clip: {fileID: 0}
       Stars: 4
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: cfa7c2f5383165b4b9c519c8140f2787, type: 3}
       Name: Henry Cavil
       Add: 20
       Mult: 2
       Cost: 1000
       clip: {fileID: 0}
       Stars: 5
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 2dded621d64fa384c924ab33c398a5a6, type: 3}
       Name: Tom Cruise
       Add: 10
       Mult: 5
       Cost: 1000
       clip: {fileID: 0}
       Stars: 5
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: b771d2eb6a3cb0942990bbf7d6015829, type: 3}
       Name: Richard Madden
       Add: 17
       Mult: 3
       Cost: 1000
       clip: {fileID: 0}
       Stars: 5
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 355445da031fa3c45b65f7cdb862338c, type: 3}
       Name: ' Tom Hopper'
       Add: 50
       Mult: 0
       Cost: 1000
       clip: {fileID: 0}
       Stars: 5
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: d6f3ec68178af8b47b77643e296293bc, type: 3}
       Name: Chris Pratt
       Add: 0
       Mult: 10
@@ -3068,14 +3068,14 @@ MonoBehaviour:
       clip: {fileID: 0}
       Stars: 5
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: f93df189de656094d95ccea88760655b, type: 3}
       Name: Johnny Depp
       Add: 0
       Mult: 25
       Cost: 2000
       clip: {fileID: 0}
       Stars: 6
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 63849ff7d941b8e42987e9a1e268b76a, type: 3}
       Name: Peter Dinklage
       Add: 100
       Mult: 0
@@ -3083,7 +3083,7 @@ MonoBehaviour:
       clip: {fileID: 0}
       Stars: 6
   - Stars:
-    - Face: {fileID: 0}
+    - Face: {fileID: 21300000, guid: 741f915ad127dc540b32759ed54676ad, type: 3}
       Name: Danny DaVito
       Add: 100
       Mult: 25
