@@ -34,6 +34,10 @@ public class Celebs : MonoBehaviour
         public TextMeshProUGUI sell4;
         private Star select;
         public Clicker clicker;
+        public GameObject face;
+        private int tier;
+        private int rand2;
+        private bool box;
 
 
 
@@ -41,6 +45,7 @@ public class Celebs : MonoBehaviour
     {
         mes.SetActive(false);
         nam.SetActive(false);
+        face.SetActive(false);
         invent.Add(starTiers[0].Stars[1]);
         invent.Add(starTiers[0].Stars[0]);
         places[0].GetComponent<Image>().sprite = invent[0].Face;
@@ -116,6 +121,7 @@ public class Celebs : MonoBehaviour
     {
         mes.SetActive(false);
         nam.SetActive(false);
+        face.SetActive(false);
     }
 
     public void sell(int slot)
@@ -135,10 +141,8 @@ public class Celebs : MonoBehaviour
     }
     public void selling()
     {
-        print(select.Name);
         if (clicker.Net + select.Cost >= 0)
         {
-            print(select.Cost);
             clicker.Net += select.Cost;
             invent.Remove(select);
             places[invent.Count].GetComponent<Image>().color = Color.black;
@@ -158,37 +162,73 @@ public class Celebs : MonoBehaviour
         int rand = Random.Range(0, 100);
         if (rand < S2)
         {
-            int rand2 = Random.Range(0, starTiers[1].Stars.Length);
-            invent.Add(starTiers[1].Stars[rand2]);
+            rand2 = Random.Range(0, starTiers[1].Stars.Length);
+            tier = 1;
         }
         else if (rand < S3)
         {
-            int rand2 = Random.Range(0, starTiers[2].Stars.Length);
-            invent.Add(starTiers[2].Stars[rand2]);
+            rand2 = Random.Range(0, starTiers[2].Stars.Length);
+            tier = 2;
         }
         else if (rand < S4)
         {
-            int rand2 = Random.Range(0, starTiers[3].Stars.Length);
-            invent.Add(starTiers[3].Stars[rand2]);
+            rand2 = Random.Range(0, starTiers[3].Stars.Length);
+            tier = 3;
         }
         else if (rand < S5)
         {
-            int rand2 = Random.Range(0, starTiers[4].Stars.Length);
-            invent.Add(starTiers[4].Stars[rand2]);
+            rand2 = Random.Range(0, starTiers[4].Stars.Length);
+            tier = 4;
         }
         else if (rand < S6)
         {
-            int rand2 = Random.Range(0, starTiers[5].Stars.Length);
-            invent.Add(starTiers[5].Stars[rand2]);
+            rand2 = Random.Range(0, starTiers[5].Stars.Length);
+            tier = 5;
         }
         else
         {
-            int rand2 = Random.Range(0, starTiers[6].Stars.Length);
-            invent.Add(starTiers[6].Stars[rand2]);
+            rand2 = Random.Range(0, starTiers[6].Stars.Length);
+            tier = 6;
         }
-        places[invent.Count-1].GetComponent<Image>().sprite = invent[invent.Count-1].Face;
-        places[invent.Count-1].GetComponent<Image>().color = Color.white;
-        mess.text = "You got "+ invent[invent.Count-1].Name;
-        mes.SetActive(true);
+        for (int i = 0; i < invent.Count; i++)
+        {
+            if (invent[i] == starTiers[tier].Stars[rand2])
+            {
+                box = false;
+            }
+        }
+        if (box)
+        {
+            invent.Add(starTiers[tier].Stars[rand2]);
+            places[invent.Count - 1].GetComponent<Image>().color = Color.white;
+            mess.text = "You got " + invent[invent.Count - 1].Name;
+            face.GetComponent<Image>().sprite = invent[invent.Count - 1].Face;
+            mes.SetActive(true);
+            face.SetActive(true);
+            box = true;
+        }
+        else
+        {
+            box = true;
+            if(S2 == 60)
+            {
+                LootBox(60, 85, 93, 95, 99);
+            }
+            else if(S2 == 20)
+            {
+                LootBox(20, 50, 60, 85, 95);
+            }
+            else
+            {
+                LootBox(5, 30, 45, 65, 85);
+            }
+        }
+    }
+    private void Update()
+    {
+        for(int i = 0; i < invent.Count; i++)
+        {
+            places[i].GetComponent<Image>().sprite = invent[i].Face;
+        }
     }
 }
