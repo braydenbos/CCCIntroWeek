@@ -37,7 +37,7 @@ public class ScreenSwitch : MonoBehaviour
     {
         if (Move && OnMain)
         {
-            timer += Time.deltaTime * 4000;
+            timer += Time.deltaTime * 8000;
             Main.position = new Vector2(timer + 718, Main.position.y);
             Shop.position = new Vector2(timer - 1282, Main.position.y);
 
@@ -50,7 +50,7 @@ public class ScreenSwitch : MonoBehaviour
         }
         if (Move && !OnMain)
         {
-            timer -= Time.deltaTime * 4000;
+            timer -= Time.deltaTime * 8000;
             Main.position = new Vector2(timer + 2724, Main.position.y);
             Shop.position = new Vector2(timer + 718, Main.position.y);
 

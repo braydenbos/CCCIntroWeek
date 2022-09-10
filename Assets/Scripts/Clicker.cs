@@ -6,11 +6,13 @@ using TMPro;
 public class Clicker : MonoBehaviour
 {
     public float Net;
+    public string Net1;
     public TextMeshProUGUI TMPro;
     public Celebs celebs;
     private void Update()
     {
-        TMPro.text = "NetWorth: " + Net + "M";
+        Net1 = string.Format("{0:0.##}", Net);
+        TMPro.text = "NetWorth: " + Net1 + "M";
     }
     public void addNet()
     {

@@ -43,6 +43,7 @@ public class Celebs : MonoBehaviour
 
     private void Start()
     {
+
         mes.SetActive(false);
         nam.SetActive(false);
         face.SetActive(false);
