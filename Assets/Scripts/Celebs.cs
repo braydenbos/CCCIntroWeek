@@ -39,8 +39,7 @@ public class Celebs : MonoBehaviour
         private int rand2;
         private bool box;
         public AudioSource audio;
-
-
+        public Sprite[] AmountStars;
 
     private void Start()
     {
@@ -148,6 +147,8 @@ public class Celebs : MonoBehaviour
             invent.Remove(select);
             places[invent.Count].GetComponent<Image>().color = Color.black;
             places[invent.Count].GetComponent<Image>().sprite = null;
+            places[invent.Count].transform.GetChild(0).GetComponent<Image>().sprite = null;
+
 
             exit();
         }
@@ -232,6 +233,7 @@ public class Celebs : MonoBehaviour
         for(int i = 0; i < invent.Count; i++)
         {
             places[i].GetComponent<Image>().sprite = invent[i].Face;
+            places[i].transform.GetChild(0).GetComponent<Image>().sprite = AmountStars[invent[i].Stars-1];
         }
     }
 }
